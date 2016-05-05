@@ -16,15 +16,20 @@
 		11B790761CDAC657003597A4 /* TestForShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B790751CDAC657003597A4 /* TestForShareViewTests.m */; };
 		11B790811CDAC657003597A4 /* TestForShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B790801CDAC657003597A4 /* TestForShareViewUITests.m */; };
 		11B790941CDAC6AA003597A4 /* HJQShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B790931CDAC6AA003597A4 /* HJQShareView.m */; };
-		11B7909D1CDAC74B003597A4 /* share_platform_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790961CDAC74B003597A4 /* share_platform_email@2x.png */; };
-		11B7909E1CDAC74B003597A4 /* share_platform_evernote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790971CDAC74B003597A4 /* share_platform_evernote@2x.png */; };
-		11B7909F1CDAC74B003597A4 /* share_platform_imessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790981CDAC74B003597A4 /* share_platform_imessage@2x.png */; };
-		11B790A01CDAC74B003597A4 /* share_platform_qqfriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790991CDAC74B003597A4 /* share_platform_qqfriends@2x.png */; };
-		11B790A11CDAC74B003597A4 /* share_platform_sina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B7909A1CDAC74B003597A4 /* share_platform_sina@2x.png */; };
-		11B790A21CDAC74B003597A4 /* share_platform_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B7909B1CDAC74B003597A4 /* share_platform_wechat@2x.png */; };
-		11B790A31CDAC74B003597A4 /* share_platform_wechattimeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B7909C1CDAC74B003597A4 /* share_platform_wechattimeline@2x.png */; };
 		11B790A61CDACD91003597A4 /* cancleButtons@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790A41CDACD91003597A4 /* cancleButtons@3x.png */; };
 		11B790A71CDACD91003597A4 /* cancleButtons@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790A51CDACD91003597A4 /* cancleButtons@2x.png */; };
+		11B790B41CDAD34D003597A4 /* share_platform_qqspace@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790A81CDAD34D003597A4 /* share_platform_qqspace@3x.png */; };
+		11B790B51CDAD34D003597A4 /* share_platform_qqfriends@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790A91CDAD34D003597A4 /* share_platform_qqfriends@3x.png */; };
+		11B790B61CDAD34D003597A4 /* share_platform_wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790AA1CDAD34D003597A4 /* share_platform_wechat@3x.png */; };
+		11B790B71CDAD34D003597A4 /* share_platform_qqfriends@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790AB1CDAD34D003597A4 /* share_platform_qqfriends@2x.png */; };
+		11B790B81CDAD34D003597A4 /* share_platform_qqspace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790AC1CDAD34D003597A4 /* share_platform_qqspace@2x.png */; };
+		11B790B91CDAD34D003597A4 /* share_platform_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790AD1CDAD34D003597A4 /* share_platform_wechat@2x.png */; };
+		11B790BA1CDAD34D003597A4 /* share_platform_purchasingcicle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790AE1CDAD34D003597A4 /* share_platform_purchasingcicle@3x.png */; };
+		11B790BB1CDAD34D003597A4 /* share_platform_sina@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790AF1CDAD34D003597A4 /* share_platform_sina@3x.png */; };
+		11B790BC1CDAD34D003597A4 /* share_platform_wechattimeline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790B01CDAD34D003597A4 /* share_platform_wechattimeline@3x.png */; };
+		11B790BD1CDAD34D003597A4 /* share_platform_purchasingcicle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790B11CDAD34D003597A4 /* share_platform_purchasingcicle@2x.png */; };
+		11B790BE1CDAD34D003597A4 /* share_platform_sina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790B21CDAD34D003597A4 /* share_platform_sina@2x.png */; };
+		11B790BF1CDAD34D003597A4 /* share_platform_wechattimeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B790B31CDAD34D003597A4 /* share_platform_wechattimeline@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,15 +68,20 @@
 		11B790821CDAC657003597A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11B790921CDAC6AA003597A4 /* HJQShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJQShareView.h; sourceTree = "<group>"; };
 		11B790931CDAC6AA003597A4 /* HJQShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJQShareView.m; sourceTree = "<group>"; };
-		11B790961CDAC74B003597A4 /* share_platform_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_email@2x.png"; sourceTree = "<group>"; };
-		11B790971CDAC74B003597A4 /* share_platform_evernote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_evernote@2x.png"; sourceTree = "<group>"; };
-		11B790981CDAC74B003597A4 /* share_platform_imessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_imessage@2x.png"; sourceTree = "<group>"; };
-		11B790991CDAC74B003597A4 /* share_platform_qqfriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_qqfriends@2x.png"; sourceTree = "<group>"; };
-		11B7909A1CDAC74B003597A4 /* share_platform_sina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_sina@2x.png"; sourceTree = "<group>"; };
-		11B7909B1CDAC74B003597A4 /* share_platform_wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_wechat@2x.png"; sourceTree = "<group>"; };
-		11B7909C1CDAC74B003597A4 /* share_platform_wechattimeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_wechattimeline@2x.png"; sourceTree = "<group>"; };
 		11B790A41CDACD91003597A4 /* cancleButtons@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancleButtons@3x.png"; sourceTree = "<group>"; };
 		11B790A51CDACD91003597A4 /* cancleButtons@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancleButtons@2x.png"; sourceTree = "<group>"; };
+		11B790A81CDAD34D003597A4 /* share_platform_qqspace@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_qqspace@3x.png"; sourceTree = "<group>"; };
+		11B790A91CDAD34D003597A4 /* share_platform_qqfriends@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_qqfriends@3x.png"; sourceTree = "<group>"; };
+		11B790AA1CDAD34D003597A4 /* share_platform_wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_wechat@3x.png"; sourceTree = "<group>"; };
+		11B790AB1CDAD34D003597A4 /* share_platform_qqfriends@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_qqfriends@2x.png"; sourceTree = "<group>"; };
+		11B790AC1CDAD34D003597A4 /* share_platform_qqspace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_qqspace@2x.png"; sourceTree = "<group>"; };
+		11B790AD1CDAD34D003597A4 /* share_platform_wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_wechat@2x.png"; sourceTree = "<group>"; };
+		11B790AE1CDAD34D003597A4 /* share_platform_purchasingcicle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_purchasingcicle@3x.png"; sourceTree = "<group>"; };
+		11B790AF1CDAD34D003597A4 /* share_platform_sina@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_sina@3x.png"; sourceTree = "<group>"; };
+		11B790B01CDAD34D003597A4 /* share_platform_wechattimeline@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_wechattimeline@3x.png"; sourceTree = "<group>"; };
+		11B790B11CDAD34D003597A4 /* share_platform_purchasingcicle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_purchasingcicle@2x.png"; sourceTree = "<group>"; };
+		11B790B21CDAD34D003597A4 /* share_platform_sina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_sina@2x.png"; sourceTree = "<group>"; };
+		11B790B31CDAD34D003597A4 /* share_platform_wechattimeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_platform_wechattimeline@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,13 +185,18 @@
 		11B790951CDAC73D003597A4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				11B790961CDAC74B003597A4 /* share_platform_email@2x.png */,
-				11B790971CDAC74B003597A4 /* share_platform_evernote@2x.png */,
-				11B790981CDAC74B003597A4 /* share_platform_imessage@2x.png */,
-				11B790991CDAC74B003597A4 /* share_platform_qqfriends@2x.png */,
-				11B7909A1CDAC74B003597A4 /* share_platform_sina@2x.png */,
-				11B7909B1CDAC74B003597A4 /* share_platform_wechat@2x.png */,
-				11B7909C1CDAC74B003597A4 /* share_platform_wechattimeline@2x.png */,
+				11B790A81CDAD34D003597A4 /* share_platform_qqspace@3x.png */,
+				11B790A91CDAD34D003597A4 /* share_platform_qqfriends@3x.png */,
+				11B790AA1CDAD34D003597A4 /* share_platform_wechat@3x.png */,
+				11B790AB1CDAD34D003597A4 /* share_platform_qqfriends@2x.png */,
+				11B790AC1CDAD34D003597A4 /* share_platform_qqspace@2x.png */,
+				11B790AD1CDAD34D003597A4 /* share_platform_wechat@2x.png */,
+				11B790AE1CDAD34D003597A4 /* share_platform_purchasingcicle@3x.png */,
+				11B790AF1CDAD34D003597A4 /* share_platform_sina@3x.png */,
+				11B790B01CDAD34D003597A4 /* share_platform_wechattimeline@3x.png */,
+				11B790B11CDAD34D003597A4 /* share_platform_purchasingcicle@2x.png */,
+				11B790B21CDAD34D003597A4 /* share_platform_sina@2x.png */,
+				11B790B31CDAD34D003597A4 /* share_platform_wechattimeline@2x.png */,
 				11B790A41CDACD91003597A4 /* cancleButtons@3x.png */,
 				11B790A51CDACD91003597A4 /* cancleButtons@2x.png */,
 			);
@@ -291,18 +306,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B790A11CDAC74B003597A4 /* share_platform_sina@2x.png in Resources */,
-				11B7909E1CDAC74B003597A4 /* share_platform_evernote@2x.png in Resources */,
+				11B790B81CDAD34D003597A4 /* share_platform_qqspace@2x.png in Resources */,
 				11B790A71CDACD91003597A4 /* cancleButtons@2x.png in Resources */,
-				11B7909F1CDAC74B003597A4 /* share_platform_imessage@2x.png in Resources */,
 				11B7906B1CDAC657003597A4 /* LaunchScreen.storyboard in Resources */,
-				11B790A31CDAC74B003597A4 /* share_platform_wechattimeline@2x.png in Resources */,
 				11B790681CDAC657003597A4 /* Assets.xcassets in Resources */,
-				11B7909D1CDAC74B003597A4 /* share_platform_email@2x.png in Resources */,
-				11B790A01CDAC74B003597A4 /* share_platform_qqfriends@2x.png in Resources */,
-				11B790A21CDAC74B003597A4 /* share_platform_wechat@2x.png in Resources */,
+				11B790BB1CDAD34D003597A4 /* share_platform_sina@3x.png in Resources */,
+				11B790B41CDAD34D003597A4 /* share_platform_qqspace@3x.png in Resources */,
+				11B790BD1CDAD34D003597A4 /* share_platform_purchasingcicle@2x.png in Resources */,
+				11B790B71CDAD34D003597A4 /* share_platform_qqfriends@2x.png in Resources */,
+				11B790BE1CDAD34D003597A4 /* share_platform_sina@2x.png in Resources */,
+				11B790BC1CDAD34D003597A4 /* share_platform_wechattimeline@3x.png in Resources */,
+				11B790B61CDAD34D003597A4 /* share_platform_wechat@3x.png in Resources */,
+				11B790BF1CDAD34D003597A4 /* share_platform_wechattimeline@2x.png in Resources */,
 				11B790661CDAC657003597A4 /* Main.storyboard in Resources */,
 				11B790A61CDACD91003597A4 /* cancleButtons@3x.png in Resources */,
+				11B790BA1CDAD34D003597A4 /* share_platform_purchasingcicle@3x.png in Resources */,
+				11B790B51CDAD34D003597A4 /* share_platform_qqfriends@3x.png in Resources */,
+				11B790B91CDAD34D003597A4 /* share_platform_wechat@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +576,7 @@
 				11B790871CDAC657003597A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11B790881CDAC657003597A4 /* Build configuration list for PBXNativeTarget "TestForShareViewTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +585,7 @@
 				11B7908A1CDAC657003597A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11B7908B1CDAC657003597A4 /* Build configuration list for PBXNativeTarget "TestForShareViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +594,7 @@
 				11B7908D1CDAC657003597A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
