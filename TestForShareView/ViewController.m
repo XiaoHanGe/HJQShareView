@@ -59,33 +59,33 @@
         //横屏会变成一行6个, 竖屏无法一行同时显示6个, 会自动使用默认一行4个的设置.
         self.activityView.numberOfButtonPerLine = 6;
         
-        ButtonView *bv = [[ButtonView alloc]initWithText:@"新浪微博" image:[UIImage imageNamed:@"share_platform_sina"] handler:^(ButtonView *buttonView){
+        ButtonView *bv = [[ButtonView alloc]initWithText:@"微信好友" image:[UIImage imageNamed:@"share_platform_wechat"] handler:^(ButtonView *buttonView){
+            NSLog(@"点击微信好友");
+        }];
+        [self.activityView addButtonView:bv];
+        
+        bv = [[ButtonView alloc]initWithText:@"朋友圈" image:[UIImage imageNamed:@"share_platform_wechattimeline"] handler:^(ButtonView *buttonView){
+            NSLog(@"点击微信朋友圈");
+        }];
+        [self.activityView addButtonView:bv];
+        
+        bv = [[ButtonView alloc]initWithText:@"qq好友" image:[UIImage imageNamed:@"share_platform_qqfriends"] handler:^(ButtonView *buttonView){
+            NSLog(@"点击qq好友");
+        }];
+        [self.activityView addButtonView:bv];
+        
+        bv = [[ButtonView alloc]initWithText:@"qq空间" image:[UIImage imageNamed:@"share_platform_qqspace"] handler:^(ButtonView *buttonView){
+            NSLog(@"点击QQ空间");
+        }];
+        [self.activityView addButtonView:bv];
+        
+        bv = [[ButtonView alloc]initWithText:@"微博" image:[UIImage imageNamed:@"share_platform_sina"] handler:^(ButtonView *buttonView){
             NSLog(@"点击新浪微博");
         }];
         [self.activityView addButtonView:bv];
         
-        bv = [[ButtonView alloc]initWithText:@"Email" image:[UIImage imageNamed:@"share_platform_email"] handler:^(ButtonView *buttonView){
-            NSLog(@"点击Email");
-        }];
-        [self.activityView addButtonView:bv];
-        
-        bv = [[ButtonView alloc]initWithText:@"印象笔记" image:[UIImage imageNamed:@"share_platform_evernote"] handler:^(ButtonView *buttonView){
-            NSLog(@"点击印象笔记");
-        }];
-        [self.activityView addButtonView:bv];
-        
-        bv = [[ButtonView alloc]initWithText:@"QQ" image:[UIImage imageNamed:@"share_platform_qqfriends"] handler:^(ButtonView *buttonView){
-            NSLog(@"点击QQ");
-        }];
-        [self.activityView addButtonView:bv];
-        
-        bv = [[ButtonView alloc]initWithText:@"微信" image:[UIImage imageNamed:@"share_platform_wechat"] handler:^(ButtonView *buttonView){
-            NSLog(@"点击微信");
-        }];
-        [self.activityView addButtonView:bv];
-        
-        bv = [[ButtonView alloc]initWithText:@"微信朋友圈" image:[UIImage imageNamed:@"share_platform_wechattimeline"] handler:^(ButtonView *buttonView){
-            NSLog(@"点击微信朋友圈");
+        bv = [[ButtonView alloc]initWithText:@"采购圈" image:[UIImage imageNamed:@"share_platform_purchasingcicle"] handler:^(ButtonView *buttonView){
+            NSLog(@"点击采购圈");
         }];
         [self.activityView addButtonView:bv];
         
